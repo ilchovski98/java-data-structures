@@ -14,13 +14,13 @@ public class Main {
 
         queue.add(janeJones);
         queue.add(johnDoe);
-        queue.remove();
+//        queue.remove();
         queue.add(marySmith);
-        queue.remove();
+//        queue.remove();
         queue.add(mikeWilson);
-        queue.remove();
+//        queue.remove();
         queue.add(billEnd);
-        queue.remove();
+//        queue.remove();
         queue.add(janeJones);
 
         queue.printQueue();

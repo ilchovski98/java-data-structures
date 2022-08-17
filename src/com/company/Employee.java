@@ -55,12 +55,17 @@ public class Employee {
         return result;
     }
 
+//    @Override
+//    public String toString() {
+//        return "Employee{" +
+//                "firstName='" + firstName + '\'' +
+//                ", lastName='" + lastName + '\'' +
+//                ", id=" + id +
+//                '}';
+//    }
+
     @Override
     public String toString() {
-        return "Employee{" +
-                "firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", id=" + id +
-                '}';
+        return firstName;
     }
 }
