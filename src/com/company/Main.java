@@ -1,5 +1,8 @@
 package com.company;
 
+import java.util.Iterator;
+import java.util.LinkedList;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -10,41 +13,19 @@ public class Main {
         Employee mikeWilson = new Employee("Mike", "Wilson", 3245);
         Employee billEnd = new Employee("Bill", "End", 78);
 
-        ArrayQueue2 queue = new ArrayQueue2(5);
+        LinkedListQueue queue = new LinkedListQueue();
 
         queue.add(janeJones);
         queue.add(johnDoe);
-//        queue.remove();
+        queue.remove();
         queue.add(marySmith);
-//        queue.remove();
+        queue.remove();
         queue.add(mikeWilson);
-//        queue.remove();
+        queue.remove();
         queue.add(billEnd);
-//        queue.remove();
+        queue.remove();
         queue.add(janeJones);
 
         queue.printQueue();
-
-//        queue.add(janeJones);
-//        queue.add(johnDoe);
-//        queue.add(marySmith);
-//        queue.add(mikeWilson);
-//        queue.add(billEnd);
-//        //queue.printQueue();
-//
-//        queue.remove();
-//        queue.remove();
-//        //queue.printQueue();
-//
-//        //System.out.println(queue.peek());
-//        queue.remove();
-//        queue.remove();
-//        queue.remove();
-//        //queue.remove();
-////
-//        queue.add(mikeWilson);
-////
-////
-//        queue.printQueue();
     }
 }
